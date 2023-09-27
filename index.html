@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Messages</title>
+</head>
+<body>
+
+  <div id="forum">
+    <h1>Forum</h1>
+    <ul id="post-list"></ul>
+    <form id="post-form">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" required minlength="6" maxlength="100"  />
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" cols="155"></textarea><br><br>
+        <h4>Add a New Message:</h4><br><br>
+        <button type="submit">Send</button>
+    </form>
+</div>
+  
+
+  <script src="./index.js"></script>
+</body>
+</html>
